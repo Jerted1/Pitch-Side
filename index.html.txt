@@ -62,6 +62,8 @@
     <p>© 2025 GoalZone. All rights reserved.</p>
   </footer>
 
+  <div id="fixtures-content"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
