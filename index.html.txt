@@ -19,34 +19,17 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Your One-Stop Football Hub</h2>
-    <p>Live news, transfer updates, and upcoming matches – all in one place.</p>
-  </section>
-
-  <!-- 📰 FOOTBALL NEWS SECTION -->
-  <section id="news">
-    <h2>Football News</h2>
-    <div id="news-content">Loading news...</div>
-  </section>
-
-  <!-- 🔁 TRANSFERS SECTION -->
-  <section id="transfers">
-    <h2>Latest Transfers</h2>
-    <div id="transfers-content">Loading transfers...</div>
-  </section>
-
-  <!-- 📅 FIXTURES SECTION -->
+  <!-- Upcoming Fixtures Section -->
   <section id="fixtures">
     <h2>Upcoming Fixtures</h2>
-    <div id="fixtures-content">Loading fixtures...</div>
+    <div id="fixtures-content">Loading...</div>
   </section>
 
   <footer>
     <p>© 2025 Pitch-Side. All rights reserved.</p>
   </footer>
 
-  <!-- 🧠 JAVASCRIPT -->
+  <!-- Link to your JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
