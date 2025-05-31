@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GoalZone - Football Gear</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>GoalZone</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your One-Stop Shop for Football Gear</h2>
+    <p>Find boots, kits, balls, and everything you need to play like a pro.</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Top Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Football Boots" />
+        <h3>Pro Football Boots</h3>
+        <p>£89.99</p>
+        <button class="add-to-cart" data-name="Pro Football Boots" data-price="89.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Football" />
+        <h3>Premier League Ball</h3>
+        <p>£29.99</p>
+        <button class="add-to-cart" data-name="Premier League Ball" data-price="29.99">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Football Kit" />
+        <h3>Team Kit</h3>
+        <p>£49.99</p>
+        <button class="add-to-cart" data-name="Team Kit" data-price="49.99">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 GoalZone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
