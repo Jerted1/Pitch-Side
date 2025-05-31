@@ -1,5 +1,4 @@
 const API_KEY = 'd8111c3233a64fd7b09494daa6a3f0ee';
-
 const options = {
   method: 'GET',
   headers: {
