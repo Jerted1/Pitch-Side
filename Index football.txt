@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Football Hub</title>
+  <style>
+    body { font-family: Arial; margin: 20px; background: #f4f4f4; }
+    h1 { color: #2c3e50; }
+    .section { margin-bottom: 30px; }
+    .card { background: white; padding: 15px; margin: 10px 0; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>⚽ Football Hub</h1>
+
+  <div class="section" id="news">
+    <h2>📰 Latest Football News</h2>
+    <div id="news-content"></div>
+  </div>
+
+  <div class="section" id="transfers">
+    <h2>🔁 Latest Transfers</h2>
+    <div id="transfers-content"></div>
+  </div>
+
+  <div class="section" id="fixtures">
+    <h2>📅 Upcoming Games</h2>
+    <div id="fixtures-content"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
